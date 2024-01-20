@@ -52,7 +52,7 @@ a {
 .card-category {
     color: var(--color-primary);
 }
-.section-headed{
+.section-header{
     text-align: var(--section-header-align)
 }
 .section-title{
