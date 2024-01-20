@@ -115,7 +115,7 @@ a {
     background-color: var(--color-primary);
     text-decoration: none;
 }
-.card.testimonial {
+.card-testimonial {
     text-align: center;
 }
 .card-testimonial .card-avatar{
