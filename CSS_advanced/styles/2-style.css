@@ -1,5 +1,5 @@
 body{
-    color: #161616;
+    color: text-color;
 }
 a {
     color: #161616;
@@ -8,8 +8,8 @@ a {
     display: none;
 }
 .card-category{
-    color: #D73953;
+    color: color-primary;
 }
 .section-tagline{
-    color: #D73953
+    color: color-primary;
 }
