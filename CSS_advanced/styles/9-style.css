@@ -52,3 +52,6 @@ a {
 .section-tagline {
     color: var(--color-primary);
 }
+a{
+    text-decoration: none;  
+}
