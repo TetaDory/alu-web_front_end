@@ -7,9 +7,14 @@
     --text-color: var(--color-black);
 }
 
-body{
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
     color: var(--text-color);
-}
+  }
+  
 a {
     color: var(--text-color);
 }
