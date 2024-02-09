@@ -741,10 +741,19 @@
   
   /* Post
       ============================= */
-  
+  @media (max-width: 767px) {
+    .post {
+      flex-direction: column;
+      margin: 2rem;
+    }
+    .post-content {
+      flex-direction: 0;
+    }
+  }
   .post {
     display: flex;
     align-items: baseline;
+    margin: 0 2rem;
   }
   
   .post-content {
@@ -834,6 +843,14 @@
   
   .post-comments .section-title {
     font-variant: small-caps;
+  }
+
+  @media (max-width: 767px) {
+    .post-comments {
+      width: calc(100% - 4rem)
+      margin: 2rem;
+      padding: 0;
+    }
   }
   
   /* Basic form
