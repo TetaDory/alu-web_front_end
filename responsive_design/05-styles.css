@@ -327,7 +327,7 @@
     user-select: none;
   }
 
-  .headed .menu-icon .navicon {
+  .header .menu-icon .navicon {
     background: var(--color-white);
     display: block;
     width: 2rem;
